@@ -1,0 +1,13 @@
+basename pong
+frames 90
+
+//ball
+push
+move 250 250 0
+rotate y 150
+rotate x 250 knob1
+sphere 0 0 0 200
+push
+
+vary knob1 0 90 0 1
+
